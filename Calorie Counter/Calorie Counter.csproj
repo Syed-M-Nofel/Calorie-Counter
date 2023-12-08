@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Calorie_Counter</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\apple.jpeg" />
+    <None Remove="images\banana.jpeg" />
+    <None Remove="images\orange.png" />
+    <None Remove="images\peer.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\banana.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\apple.jpeg" />
+    <Resource Include="images\orange.png" />
+    <Resource Include="images\peer.jpg" />
+  </ItemGroup>
+
+</Project>
